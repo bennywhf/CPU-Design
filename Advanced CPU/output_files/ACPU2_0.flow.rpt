@@ -1,0 +1,152 @@
+Flow report for ACPU2_0
+Fri Sep 13 20:33:31 2013
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Fri Sep 13 20:33:31 2013           ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; ACPU2_0                                         ;
+; Top-level Entity Name              ; MY_MEM                                          ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE115F29C7                                   ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 622 / 114,480 ( < 1 % )                         ;
+;     Total combinational functions  ; 615 / 114,480 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 27 / 114,480 ( < 1 % )                          ;
+; Total registers                    ; 27                                              ;
+; Total pins                         ; 50 / 529 ( 9 % )                                ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 1,048,576 / 3,981,312 ( 26 % )                  ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                 ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/13/2013 20:30:20 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ACPU2_0             ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 153246749793.137911861903514 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                         ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                           ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; MEM2P.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; MEM2P.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; ADD_SUB.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; ADD_SUB.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; ADDER_16_bit.bsf             ; --            ; --          ; --             ;
+; MISC_FILE                           ; ADDER_16_bit.cmp             ; --            ; --          ; --             ;
+; MISC_FILE                           ; SUBTRACTER_16_bit.bsf        ; --            ; --          ; --             ;
+; MISC_FILE                           ; SUBTRACTER_16_bit.cmp        ; --            ; --          ; --             ;
+; MISC_FILE                           ; Memory.bsf                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; Memory.cmp                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; Plus1_16bit.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                           ; Plus1_16bit.cmp              ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                     ; --            ; MY_MEM      ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; MY_MEM      ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; MY_MEM      ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; MY_MEM                       ; ACPU2_0       ; --          ; --             ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 374 MB              ; 00:00:11                           ;
+; Fitter                    ; 00:02:01     ; 1.0                     ; 658 MB              ; 00:01:53                           ;
+; Assembler                 ; 00:00:16     ; 1.0                     ; 348 MB              ; 00:00:15                           ;
+; TimeQuest Timing Analyzer ; 00:00:11     ; 1.0                     ; 412 MB              ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 318 MB              ; 00:00:05                           ;
+; Total                     ; 00:02:45     ; --                      ; --                  ; 00:02:34                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+---------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname    ; OS Name    ; OS Version ; Processor type ;
++---------------------------+---------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; benny-Inspiron-1545 ; Linux Mint ; 13         ; i686           ;
+; Fitter                    ; benny-Inspiron-1545 ; Linux Mint ; 13         ; i686           ;
+; Assembler                 ; benny-Inspiron-1545 ; Linux Mint ; 13         ; i686           ;
+; TimeQuest Timing Analyzer ; benny-Inspiron-1545 ; Linux Mint ; 13         ; i686           ;
+; EDA Netlist Writer        ; benny-Inspiron-1545 ; Linux Mint ; 13         ; i686           ;
++---------------------------+---------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ACPU2_0 -c ACPU2_0
+quartus_fit --read_settings_files=off --write_settings_files=off ACPU2_0 -c ACPU2_0
+quartus_asm --read_settings_files=off --write_settings_files=off ACPU2_0 -c ACPU2_0
+quartus_sta ACPU2_0 -c ACPU2_0
+quartus_eda --read_settings_files=off --write_settings_files=off ACPU2_0 -c ACPU2_0
+
+
+

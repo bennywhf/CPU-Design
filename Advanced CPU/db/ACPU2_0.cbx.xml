@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ACPU2_0">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MY_MEM|Memory:mem_A|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hbg1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,16 @@
+to,location
+opcode[0],pin_AB28
+opcode[1],pin_AC28
+opcode[2],pin_AC27
+opcode[3],pin_AD27
+RegDst,pin_g19
+Branch,pin_f19
+MemRead,pin_e19
+MemtoReg,pin_f21
+MemWrite,pin_f18
+ALUSrc,pin_e18
+RegWrite,pin_j19
+jump,pin_h19
+ALUOp[0],pin_e21
+ALUOp[1],pin_e22
+ALUOp[2],pin_e25

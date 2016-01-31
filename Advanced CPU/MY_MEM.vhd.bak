@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity instruction_memory is
+port(
+	Output : out std_logic_vector(15 downto 0);
+	Address : in std_logic_vector(15 downto 0);
+	En : in std_logic;
+	input : in std_logic_vector(15 downto 0);
+	clk : in std_logic;
+
+);
+
+end instruction_memory;
+
+
+ARCHITECTURE arch of instruction_memory is
+
+TYPE mem_type IS ARRAY (15 DOWNTO 0) OF std_logic_vector (15 DOWNTO 0);
+SIGNAL mem : mem_type;
+
+begin
+
+process(clk)
+begin
+	if (rising_edge(clk)) then
+		if(En = '1') then
+			mem(Address) <= input;
+		end if;
+		Output <= mem(Address);
+	end if;
+end process;
+end arch;

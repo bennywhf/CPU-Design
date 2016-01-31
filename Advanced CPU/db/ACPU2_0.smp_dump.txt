@@ -1,0 +1,6 @@
+
+State Machine - |MY_MEM|current_state
+Name current_state.RAM current_state.move_block current_state.inc_add 
+current_state.inc_add 0 0 0 
+current_state.move_block 0 1 1 
+current_state.RAM 1 0 1 
